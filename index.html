@@ -1,36 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Breno Lanches</title>
-    <style>
-        body {
-            background-color: #111;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 40px;
-        }
-        h1 {
-            color: #ffcc00;
-        }
-        .card {
-            background: #222;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Breno Lanches</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f0f0f;
+    color:#fff;
+}
+
+header{
+    background:#ffb703;
+    color:#000;
+    padding:20px;
+    text-align:center;
+}
+
+.container{
+    padding:15px;
+}
+
+.card{
+    background:#1c1c1c;
+    border-radius:12px;
+    padding:15px;
+    margin-bottom:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h2{
+    margin:10px 0 5px;
+    color:#ffb703;
+}
+
+.card p{
+    margin:0 0 10px;
+}
+
+.preco{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.botao{
+    display:block;
+    text-align:center;
+    background:#25d366;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.whatsapp-fixo{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25d366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:22px;
+    text-decoration:none;
+}
+</style>
 </head>
+
 <body>
 
+<header>
     <h1>🍔 Breno Lanches</h1>
-    <p>Os melhores lanches da cidade 😋</p>
+    <p>Peça rápido pelo WhatsApp</p>
+</header>
 
-    <div class="card">🍔 X-Burger – R$ 12,00</div>
-    <div class="card">🍔 X-Salada – R$ 14,00</div>
-    <div class="card">🍔 X-Bacon – R$ 16,00</div>
-    <div class="card">🥤 Refrigerante – R$ 5,00</div>
+<div class="container">
 
-</body>
-</html>
+    <div class="card">
+        <img src="https://i.imgur.com/5KX5F7P.jpg">
+        <h2>X-Burger</h2>
+        <p>Pão, carne e queijo</p>
+        <p class="preco">R$ 12,00</p>
+        <a class="botao" href="https://wa.me/5579999999999">Pedir no WhatsApp</a>
+    </div>
+
+    <div class="card">
+        <img src="https://i.imgur.com/0umadnY.jpg">
+        <h2>X-Salada</h2>
+        <p>Carne, queijo e salada</p>
+        <p class="preco">R$ 14,00</p>
+        <a class="botao" href="https://wa.me/5579999999999">Pedir no WhatsApp</a>
+    </div>
